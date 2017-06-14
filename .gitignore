@@ -1,1 +1,4 @@
 *.xcodeproj
+
+# OSX stuff
+.DS_Store
