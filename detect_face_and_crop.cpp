@@ -18,5 +18,18 @@ using namespace std;
 
 int main (int argc, char** argv) try
 {
-    
+    /* from dnn face recognition example */
+    if (argc != 2)
+    {
+        cout << "Run this example by invoking it like this: " << endl;
+        cout << "   ./dnn_face_recognition_ex faces/bald_guys.jpg" << endl;
+        cout << endl;
+        cout << "You will also need to get the face landmarking model file as well as " << endl;
+        cout << "the face recognition model file.  Download and then decompress these files from: " << endl;
+        cout << "http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2" << endl;
+        cout << "http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2" << endl;
+        cout << endl;
+        return 1;
+    }
+        
 }
